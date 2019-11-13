@@ -1,10 +1,9 @@
 {
-  "name": "assault-monitor",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "antd": "^3.25.1",
-    "babel-plugin-import": "^1.12.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
