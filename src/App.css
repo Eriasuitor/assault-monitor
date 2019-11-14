@@ -1,22 +1,87 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
+.app {
+  /* background-color:#D8D8D8; */
+  background-color:rgb(241, 241, 241);
+  padding: 6px 0;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.statistic{
+  margin: 6px;
+  padding: 12px;
+  background-color: white;
+}
+
+.collapse {
+  margin: 6px;
+}
+
+.collapse .status-icon {
+  margin-right: 3px;
+}
+
+.collapse p .item {
+  margin-left: 12px;
+  margin-right: 6px;
+}
+
+.collapse .collapse-statistic {
+  display: inline-block;
+  margin-right: 48px;
+}
+
+.collapse .ip {
+  display: inline-block;
+  min-width: 180px;
+}
+
+.row {
+  padding: 0px 6px;
+}
+
+.boolean {
+  
+}
+
+.boolean div {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.boolean .status {
+  float: right;  
+}
+
+.boolean .icon {
+  margin-right:6px;
+}
+
+.collapse .icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.cant-select {
+  user-select:none;
+}
+
+.success {
+  color: '#3f8600'
+}
+
+.failed{
+  color: red
+}
+
+.status-model {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: calc(100% - 24px);
+  height:calc(100% - 12px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  opacity: 0.73;
 }
