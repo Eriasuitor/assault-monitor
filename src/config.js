@@ -1,3 +1,3 @@
 module.exports = {
-	sentryUrl: 'http://localhost:9878/intelligences'
+	sentryUrl: 'http://18.162.228.10:9878/intelligences'
 }
